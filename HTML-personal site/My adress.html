@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Adress</title>
+</head>
+<body>
+  <h1>My Adress</h1>
+  <br>
+  <hr size="3" noshade>
+  <p>My email adress is <em><a href="https://mail.qq.com/">here</a></em></p>
+  <p>If you want to Contact me, go here
+    <ul>
+      <li><em>China,Guangdongn Province</em></li>
+    </ul>
+  </p>
+  <h3>Do you want to contact me?</h3>
+  <form action="">
+    <label for="">your name:</label>
+    <input type="text">
+    <input type="submit"><br>
+    <label for="email">your email:</label>
+    <input type="email">
+    <input type="submit"><br>
+   <label for="">your sex:</label><br>
+   <input type="radio" name="sex" value="male" checked>male <br>
+   <!-- 在单选属性radio中要加一个checked让他只能单选。 -->
+   <input type="radio" name="sex" value="female">female
+   <!-- name 属性规定 input 元素的名称。name 属性用于对提交到服务器后的表单数据进行标识，或者在客户端通过 JavaScript 引用表单数据。注释：只有设置了 name 属性的表单元素才能在提交表单时传递它们的值。 -->
+   <input type="submit" value="点击提交"><br>
+   <label for="">your message:</label><br>
+   <textarea name="send it to me!" id="" cols="30" rows="10">send it to me!</textarea><br>
+  </form>
+  <form action="">
+    <label for="">hobby:</label><br>
+    <input type="checkbox" name="hobby" value="violin">I like violin <br>
+    <input type="checkbox" name="hobby" value="guitar">I like guitar. <br>
+    <input type="submit" value="点击提交~"><br>
+    <!-- 在按钮属性中value表示按钮上显示的文本 -->
+    <input type="image" value="yidong"><br>
+    <input type="text" value="默认选项不可更改" readonly>
+    <!-- 在各式文本框中，value相当于初始显示的默认内容，可以更改，除非加了readonly属性
+     -->
+  </form>
+  <table>
+    <tr>
+      <th style="width:40%">my skills</th>
+      <th style="width:40%">Do you have it?</th>
+    </tr>
+    <tr>
+      <td>
+        sing
+      </td>
+      <td>not bad</td>
+    </tr>
+    <tr>
+      <td>dance</td>
+      <td>very bad</td>
+    </tr>
+  </table>
+
+
+</body>
+</html>
